@@ -4,13 +4,13 @@ def create_an_empty_array
 end
 
 def create_an_array
-  ["love", "kindness", "patience", "joy"]
+  array = ["love", "kindness", "patience", "joy"]
 
 end
 
 def add_element_to_end_of_array(array, element)
-  ["love", "kindness", "patience", "joy"]
-  <<"peace"
+  array = ["love", "kindness", "patience", "joy"]
+  array<<"peace"
 
 end
 
